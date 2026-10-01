@@ -15,8 +15,10 @@ Talk to the user in Arabic, plain and simple.
   - Higgsfield: NOT verified yet. In the first session the network policy blocked
     `*.higgsfield.ai` and no credentials were configured.
 - The user chose the direct API path (not the MCP connector) and now has a working key.
-  They were told to put it in the cloud environment settings as
-  `HF_CREDENTIALS=KEY_ID:KEY_SECRET` and to allow `api.higgsfield.ai` under Network access.
+  The cloud environment settings were too hard to find, so they planned a fresh Claude Code
+  project from `START-HERE.md`. On their own computer the key goes in `.env.local`, which they
+  paste into themselves. In the cloud it goes in the environment settings as
+  `HF_CREDENTIALS=KEY_ID:KEY_SECRET`, with Network access set to Full.
   Never ask them to paste the key into the chat. Never read, print, log, or commit it.
 - Higgsfield tooling already in the repo:
   - `index.ts` (TypeScript, `@higgsfield/client` v2): Seedance 2.5 text-to-video example,
