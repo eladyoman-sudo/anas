@@ -24,6 +24,8 @@ Talk to the user in Arabic, plain and simple.
      added at claude.ai/customize/connectors).
    - API path: env var `HF_KEY` = `KEY_ID:KEY_SECRET` set in the environment, and network access
      allows `higgsfield.ai` and `*.higgsfield.ai` (plus the CDN that serves results).
+   The user chose the API path. Read `HF_KEY` from the environment, never print it, never
+   commit it. Auth header: `Authorization: Key $HF_KEY`.
 2. Give the honest-costs talk, declare setup complete.
 3. Phase 2 design conversation. Open questions: site language (English, Arabic, or both);
    AI-imagery disclosure; logo and client logos (the user mentioned folders `logo/`, `icons/`,
