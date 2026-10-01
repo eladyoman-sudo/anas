@@ -1,0 +1,8 @@
+node_modules/
+
+# Higgsfield skill runtime and local job ledger (prompts, request IDs, output URLs)
+work/
+
+# Local environment files hold credentials; never commit them
+.env
+.env*.local
